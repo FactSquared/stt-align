@@ -12,3 +12,13 @@ This will align the proofread transcript at the given id with the firstdraft wor
 
 The output of the alignment is in `out/aligned_<transcript_id>.json`
 
+## Help
+```python aligner.py --help
+usage: align word timings with known transcript [-h] proofread_id
+
+positional arguments:
+  proofread_id  The STELLA transcript id for the proofread transcript
+
+optional arguments:
+  -h, --help    show this help message and exit
+```
